@@ -1,0 +1,44 @@
+﻿@using ChildCentre.Slynchogled.Web.Models.Signing.SignIn;
+@model List<SignInGridModel>
+
+<div class="container my-4">
+    <div class="card">
+        <div class="p-3">
+            <h5 class="centre-violet-color">Деца</h5>
+        </div>
+        <table class="table table-striped mb-0 p-2">
+            <thead class="cent">
+                <tr>
+                    <th scope="col">Дете</th>
+                    <th scope="col">Регистрация</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (SignInGridModel signInModel in Model)
+                {
+                    <tr data-id="@signInModel.ChildId" data-name="@signInModel.ChildName">
+                        <td>
+                            @signInModel.ChildName
+                            @if (signInModel.ChildBirthDate.HasValue)
+                            {
+                                @:(@signInModel.ChildBirthDate.Value.ToShortDateString())
+                            }
+                        </td>
+
+                        <td>
+                            @signInModel.AccountName
+                            (@signInModel.AccountPhone)
+                        </td>
+
+                        <td>
+                            <button data-type="select-sign-in-btn" type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#sign-in-grid-modal">
+                                Избиране
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

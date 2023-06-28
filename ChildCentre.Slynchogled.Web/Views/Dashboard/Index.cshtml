@@ -1,0 +1,31 @@
+﻿@using ChildCentre.Slynchogled.Web.Models.Dashboard;
+@model DashboardModel
+
+<div class="container">
+    <div class="resume-section-content">
+        <div class="row">
+            <h1 class="mb-0">
+                Детски Център
+                <span class="text-primary">Слънчоглед</span>
+            </h1>
+        </div>
+        <div class="row mt-2">
+            <div class="subheading mb-5">
+                @if (@Model.ActiveChildrenCount > 0)
+                {
+                    @:Към момента в центъра има @Model.ActiveChildrenCount вписани деца.
+                }
+                else
+                {
+                    @:Към момента в центъра няма вписани деца.
+                }
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex flex-column align-items-center justify-content-between">
+                <a class="btn btn-primary centre-yellow-color large-button" asp-controller="Signing" asp-action="SignIn" style="width: 180px;">Вписване</a>
+                <a class="btn btn-primary centre-yellow-color large-button" asp-controller="Signing" asp-action="SignOut" style="width: 180px; margin-top: 20px;">Изписване</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,101 @@
+﻿@using ChildCentre.Slynchogled.Web.Controllers;
+@using ChildCentre.Slynchogled.Web.Models.Signing.SignIn;
+@model SignInModel
+
+<div>
+    <div class="d-flex flex-column align-items-center mt-5">
+        <h3 class="centre-violet-color">Вписване</h3>
+
+        <div class="container my-5 px-5">
+            <form asp-controller="Signing" asp-action="@nameof(SigningController.SignIn)" method="post">
+                <input asp-for="ChildId" class="form-control" />
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mb-3 row">
+                            <label asp-for="ChildName" class="form-label"></label>
+                            <div class="col-sm-10">
+                                <div class="d-flex">
+                                    <input asp-for="ChildName" class="form-control" readonly />
+                                    <button type="button" class="btn btn-primary centre-yellow-color mx-1" data-bs-toggle="modal" data-bs-target="#sign-in-grid-modal">
+                                        Избиране
+                                    </button>
+                                </div>
+                                <span asp-validation-for="ChildName" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mb-3 row">
+                            <label asp-for="ChildNumber" class="form-label"></label>
+                            <div class="col-sm-10">
+                                <input asp-for="ChildNumber" class="form-control" />
+                                <span asp-validation-for="ChildNumber" class="text-danger"></span>
+
+                                @if (ViewData["ChildNumberError"] != null)
+                                {
+                                    @:<span class="text-danger">@ViewData["ChildNumberError"]</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @*TODO HH: Check this*@
+                @*dotnet ef migrations add AlterChildrenBirthDateCol --project .\ChildCentre.Slynchogled.Data --startup-project .\ChildCentre.Slynchogled.Web*@
+                @*dotnet ef database update --project .\ChildCentre.Slynchogled.Data --startup-project .\ChildCentre.Slynchogled.Web*@
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mb-3 row">
+                            <div class="col-sm-10">
+                                <input asp-for="WithParent" class="form-check-input m-0" style="font-size: 1.5em;">
+                                <label asp-for="WithParent" class="form-label m-0 px-1"></label>
+                                <span asp-validation-for="WithParent" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <button type="submit" class="btn btn-primary centre-yellow-color mt-3">Вписване</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sign-in-grid-modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#sign-in-grid-modal').on('show.bs.modal', function (event) {
+                const modal = $(this);
+
+                modal.find('.modal-content').html();
+
+                $.ajax({
+                    type: "GET",
+                    url: '@(Url.Action(nameof(SigningController.SignInGrid), "Signing"))',
+                })
+                    .done(function (html) {
+                        modal.find('.modal-content').html(html);
+
+                        $('button[data-type="select-sign-in-btn"]').on('click', function () {
+                            let objectId = $(this).closest('tr').attr('data-id');
+                            let objectName = $(this).closest('tr').attr('data-name');
+
+                            $('input[name="@nameof(Model.ChildId)"]').val(objectId);
+                            $('input[name="@nameof(Model.ChildName)"]').val(objectName);
+                        });
+                    });
+            });
+        });
+    </script>
+}

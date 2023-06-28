@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ChildCentre.Slynchogled.Web.props" />
+</Project>

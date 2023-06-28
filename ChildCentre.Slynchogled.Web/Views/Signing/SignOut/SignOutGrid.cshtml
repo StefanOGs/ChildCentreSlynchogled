@@ -1,0 +1,54 @@
+﻿@using ChildCentre.Slynchogled.Web.Models.Signing.SignOut;
+@model List<SignOutGridModel>
+
+<div class="container my-4">
+    <div class="card">
+        <div class="p-3">
+            <h5 class="centre-violet-color">Деца</h5>
+        </div>
+        <table class="table table-striped mb-0 p-2">
+            <thead class="cent">
+                <tr>
+                    <th scope="col">Номер</th>
+                    <th scope="col">Вписано в</th>
+                    <th scope="col">Дете</th>
+                    <th scope="col">Регистрация</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (SignOutGridModel signOutModel in Model)
+                {
+                    <tr data-number="@signOutModel.ChildNumber">
+                        <td>
+                            @signOutModel.ChildNumber
+                        </td>
+
+                        <td>
+                            @signOutModel.SignedIn.ToShortDateString()
+                        </td>
+
+                        <td>
+                            @signOutModel.ChildName
+                            @if (signOutModel.ChildBirthDate.HasValue)
+                            {
+                                @:(@signOutModel.ChildBirthDate.Value.ToShortDateString())
+                            }
+                        </td>
+
+                        <td>
+                            @signOutModel.AccountName
+                            (@signOutModel.AccountPhone)
+                        </td>
+
+                        <td>
+                            <button data-type="select-sign-out-btn" type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#sign-out-grid-modal">
+                                Избиране
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

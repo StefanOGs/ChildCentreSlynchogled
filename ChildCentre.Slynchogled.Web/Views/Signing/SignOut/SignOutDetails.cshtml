@@ -1,0 +1,85 @@
+﻿@using ChildCentre.Slynchogled.Web.Controllers;
+@using ChildCentre.Slynchogled.Web.Models.Signing.SignOut;
+@model SignOutModel
+
+<form asp-controller="Signing" asp-action="@nameof(SigningController.SignOut)" method="post">
+    <input asp-for="ActiveChildId" class="form-control" />
+    <input asp-for="SignedOut" class="form-control" />
+
+    <h3 class="centre-violet-color my-4">Информация за детето</h3>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="mb-3 row">
+                <label asp-for="ChildNumber" class="form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="ChildNumber" class="form-control" readonly />
+                    <span asp-validation-for="ChildNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label asp-for="ChildName" class="form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="ChildName" class="form-control" readonly />
+                    <span asp-validation-for="ChildName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label asp-for="ChildBirthDate" class="form-label"></label>
+                <div class="col-sm-10">
+                    <input type="hidden" asp-for="ChildBirthDate" class="form-control" readonly />
+                    <input class="form-control" value="@($"{Model.ChildBirthDate?.ToShortDateString()} {Model.ChildBirthDate?.ToShortTimeString()}")" readonly />
+                    <span asp-validation-for="ChildBirthDate" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label asp-for="SignedIn" class="form-label"></label>
+                <div class="col-sm-10">
+                    <input type="hidden" asp-for="SignedIn" class="form-control" readonly />
+                    <input class="form-control" value="@($"{Model.SignedIn?.ToShortDateString()} {Model.SignedIn?.ToShortTimeString()}")" readonly />
+                    <span asp-validation-for="SignedIn" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+            <div class="mb-3 row">
+                <label asp-for="AccountName" class="form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="AccountName" class="form-control" readonly />
+                    <span asp-validation-for="AccountName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label asp-for="AccountPhone" class="form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="AccountPhone" class="form-control" readonly />
+                    <span asp-validation-for="AccountPhone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label asp-for="TimeSpent" class="form-label"></label>
+                <div class="col-sm-10">
+                    <input type="hidden" asp-for="TimeSpent" class="form-control" readonly />
+                    <input class="form-control" value="@Model.TimeSpent?.ToString(@"dd\.hh\:mm\:ss")" readonly />
+                    <span asp-validation-for="TimeSpent" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label asp-for="Price" class="form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Price" class="form-control" readonly />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary centre-yellow-color mt-3">Изписване</button>
+</form>

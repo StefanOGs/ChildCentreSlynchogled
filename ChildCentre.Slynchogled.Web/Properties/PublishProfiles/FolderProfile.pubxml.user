@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Web\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-05-28T16:50:44.8649356Z;True|2023-05-25T21:11:10.9519195+03:00;True|2023-05-25T20:29:19.3387278+03:00;True|2023-05-24T11:01:54.5149570+03:00;True|2023-05-24T10:45:25.0534348+03:00;True|2023-05-24T01:24:25.2754510+03:00;True|2023-05-24T01:23:48.4799842+03:00;True|2023-05-24T01:05:26.5681818+03:00;True|2023-05-15T12:39:22.5025810+03:00;True|2023-04-30T20:42:14.3494595+03:00;True|2023-04-30T18:50:11.9364456+03:00;True|2023-04-16T16:29:47.7138215+03:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SQLite">
+      <Value>Data Source=.\SlynchogledDB.db</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

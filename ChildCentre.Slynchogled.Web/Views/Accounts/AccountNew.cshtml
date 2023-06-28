@@ -1,0 +1,95 @@
+﻿@using ChildCentre.Slynchogled.Web.Controllers;
+@using ChildCentre.Slynchogled.Web.Models.Accounts;
+@model AccountNewModel
+
+<div class="d-flex flex-column align-items-center mt-5">
+    <h3 class="centre-violet-color">Нова регистрация</h3>
+
+    <div class="container my-5">
+        <form asp-controller="Accounts" asp-action="@nameof(AccountsController.AccountNew)" method="post">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Родител</h4>
+                    <hr />
+
+                    <div class="mb-3 row">
+                        <label asp-for="Parent.FirstName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Parent.FirstName" class="form-control" />
+                            <span asp-validation-for="Parent.FirstName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="Parent.MiddleName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Parent.MiddleName" class="form-control" />
+                            <span asp-validation-for="Parent.MiddleName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="Parent.LastName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Parent.LastName" class="form-control" />
+                            <span asp-validation-for="Parent.LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="Parent.PhoneNumber" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Parent.PhoneNumber" class="form-control" />
+                            <span asp-validation-for="Parent.PhoneNumber" class="text-danger"></span>
+                            @if (ViewData["NewAccountError"] != null)
+                            {
+                                @:<span class="text-danger">@ViewData["NewAccountError"]</span>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <h4>Дете</h4>
+                    <hr />
+
+                    <div class="mb-3 row">
+                        <label asp-for="Child.FirstName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Child.FirstName" class="form-control" />
+                            <span asp-validation-for="Child.FirstName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="Child.MiddleName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Child.MiddleName" class="form-control" />
+                            <span asp-validation-for="Child.MiddleName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="Child.LastName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Child.LastName" class="form-control" />
+                            <span asp-validation-for="Child.LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="Child.BirthDate" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Child.BirthDate" class="form-control" />
+                            <span asp-validation-for="Child.BirthDate" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <button type="submit" class="btn btn-primary centre-yellow-color mt-3">Регистриране</button>
+        </form>
+    </div>
+</div>

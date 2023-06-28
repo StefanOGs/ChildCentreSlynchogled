@@ -1,0 +1,77 @@
+﻿@using ChildCentre.Slynchogled.Web.Controllers;
+@using ChildCentre.Slynchogled.Web.Models.Signing;
+@model List<ActiveChildGridModel>
+
+<div class="container mt-5">
+    <div>
+        <a class="btn btn-primary centre-yellow-color large-button" asp-controller="Signing" asp-action="SignIn">Вписване</a>
+        <a class="btn btn-primary centre-yellow-color large-button" asp-controller="Signing" asp-action="SignOut">Изписване</a>
+    </div>
+
+    <div class="card mt-4">
+        <div class="p-3">
+            <h5 class="centre-violet-color">Активни деца @(Model?.Count > 0 ? $" ({Model.Count}/{ViewData["Capacity"]})" : "")</h5>
+        </div>
+        <table class="table table-striped mb-0">
+            <thead class="cent">
+                <tr>
+                    <th scope="col">Номер</th>
+                    <th scope="col">Дете</th>
+                    <th scope="col">Регистрация</th>
+                    <th scope="col">Вписано на</th>
+                    <th scope="col">Придружител</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (ActiveChildGridModel activeChild in Model)
+                {
+                    <tr data-id="@activeChild.Id">
+                        <td>
+                            @activeChild.ChildNumber
+                        </td>
+
+                        <td>
+                            @activeChild.ChildName
+                            @if (activeChild.ChildBirthDate.HasValue)
+                            {
+                                @:(@activeChild.ChildBirthDate.Value.ToShortDateString())
+                            }
+                        </td>
+
+                        <td>
+                            @activeChild.AccountName
+                            (@activeChild.AccountPhone)
+                        </td>
+
+                        <td>
+                            @activeChild.SignedIn.ToShortDateString() @activeChild.SignedIn.ToShortTimeString()
+                        </td>
+
+                        <td>
+                            @if (activeChild.WithParent)
+                            {
+                                @:Да
+                            }
+                            else
+                            {
+                                @:Не
+                            }
+                        </td>
+
+                        <td>
+                            <a class="btn btn-link" asp-controller="Signing" asp-action="SignOut" asp-route-childNumber="@activeChild.ChildNumber">Изписване</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="modal fade" id="signout-grid-modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.deps.json
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.dll
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.pdb
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.csproj.AssemblyReference.cache
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.AssemblyInfoInputs.cache
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.AssemblyInfo.cs
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.csproj.CoreCompileInputs.cache
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.dll
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\refint\ChildCentre.Slynchogled.Services.dll
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.pdb
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ref\ChildCentre.Slynchogled.Services.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.deps.json
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.pdb
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.csproj.AssemblyReference.cache
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.AssemblyInfoInputs.cache
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.AssemblyInfo.cs
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.csproj.CoreCompileInputs.cache
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\refint\ChildCentre.Slynchogled.Services.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.pdb
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ref\ChildCentre.Slynchogled.Services.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.pdb
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.csproj.CopyComplete
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.deps.json
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.dll
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Services.pdb
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.dll
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.pdb
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.csproj.AssemblyReference.cache
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.AssemblyInfoInputs.cache
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.AssemblyInfo.cs
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.csproj.CopyComplete
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.dll
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\refint\ChildCentre.Slynchogled.Services.dll
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ChildCentre.Slynchogled.Services.pdb
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Services\obj\Debug\net6.0\ref\ChildCentre.Slynchogled.Services.dll

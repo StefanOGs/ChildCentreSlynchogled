@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.centre-violet-bg {
+    background-color: #5325CE !important;
+}
+
+.centre-violet-color {
+    color: #5325CE !important;
+}
+
+.centre-yellow-bg {
+    background-color: #FFD900 !important;
+}
+
+.centre-yellow-color {
+    color: #FFD900 !important;
+}
+
+.fw-medium-bold {
+    font-weight: 500 !important;
+}
+
+.large-button{
+    font-size: 1.5rem !important;
+
+}
+
+.img-button{
+    width: 1rem;
+}

@@ -1,0 +1,42 @@
+﻿@using ChildCentre.Slynchogled.Web.Models.Accounts.Children;
+@model List<ChildGridModel>
+
+<div class="container mt-5">
+    <div class="card mt-4">
+        <div class="p-3 d-flex align-items-center">
+            <h5 class="centre-violet-color">Деца</h5>
+            <button id="new-child-btn" type="button" class="btn btn-primary centre-yellow-color mx-4" data-bs-toggle="modal" data-bs-target="#account-grid-modal">
+                Ново дете
+            </button>
+        </div>
+        <table class="table table-striped mb-0">
+            <thead class="cent">
+                <tr>
+                    <th scope="col">Име</th>
+                    <th scope="col">Дата на раждане</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (ChildGridModel child in Model)
+                {
+                    <tr data-id="@child.Id">
+                        <td>
+                            @child.Name
+                        </td>
+
+                        <td>
+                            @child.BirthDate?.ToShortDateString()
+                        </td>
+
+                        <td>
+                            <button id="edit-child-btn" type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#account-grid-modal">
+                                Редактиране
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

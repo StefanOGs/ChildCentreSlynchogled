@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>@ViewData["Title"] - ChildCentre.Slynchogled.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ChildCentre.Slynchogled.Web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/theme/theme.css" />
+</head>
+
+<body id="page-top" class="violet-center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a asp-controller="Dashboard" asp-action="Index" class="navbar-brand">
+            <span class="d-block d-lg-none" style="width: 32px;"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/slynchogled-logo.jpg" alt="..." style="border: none;" /> Слънчоглед</span>
+            <span class="d-block d-lg-none"></span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/slynchogled-logo.jpg" alt="..." style="border: none;" /></span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a asp-controller="Accounts" asp-action="" class="nav-link">Регистрации</a></li>
+                <li class="nav-item"><a asp-controller="Signing" asp-action="ActiveChildren" class="nav-link">Активни Деца</a></li>
+                <li class="nav-item"><a asp-controller="Settings" asp-action="Index" class="nav-link">Системни Настройки</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    @RenderBody()
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/theme/theme.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿@using ChildCentre.Slynchogled.Web.Controllers;
+@using ChildCentre.Slynchogled.Web.Models.Accounts.Parents;
+@model ParentModel
+
+<div class="d-flex flex-column align-items-center mt-5">
+    <h3 class="centre-violet-color">@ViewData["Title"]</h3>
+
+    <div class="container my-5 px-5">
+        <form id="parent-form">
+            <input asp-for="Id" />
+            <input asp-for="AccountId" />
+
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="mb-3 row">
+                        <label asp-for="FirstName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="MiddleName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="MiddleName" class="form-control" />
+                            <span asp-validation-for="MiddleName" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="mb-3 row">
+                        <label asp-for="LastName" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="PhoneNumber" class="form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="PhoneNumber" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="submit-parent-btn" type="button" class="btn btn-primary centre-yellow-color mt-3">Запазване</button>
+        </form>
+    </div>
+</div>

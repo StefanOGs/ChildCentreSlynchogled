@@ -1,0 +1,40 @@
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.deps.json
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.dll
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.pdb
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.csproj.AssemblyReference.cache
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.AssemblyInfoInputs.cache
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.AssemblyInfo.cs
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.csproj.CoreCompileInputs.cache
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.dll
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\refint\ChildCentre.Slynchogled.Data.dll
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.pdb
+C:\Users\Hristo\Desktop\Slynchogled App\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ref\ChildCentre.Slynchogled.Data.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.deps.json
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.runtimeconfig.json
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.pdb
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.csproj.AssemblyReference.cache
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.AssemblyInfoInputs.cache
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.AssemblyInfo.cs
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.csproj.CoreCompileInputs.cache
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\refint\ChildCentre.Slynchogled.Data.dll
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.pdb
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.genruntimeconfig.cache
+C:\Users\Hristo\Desktop\SlynchogledApp\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ref\ChildCentre.Slynchogled.Data.dll
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.deps.json
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.runtimeconfig.json
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.dll
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\bin\Debug\net6.0\ChildCentre.Slynchogled.Data.pdb
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.csproj.AssemblyReference.cache
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.AssemblyInfoInputs.cache
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.AssemblyInfo.cs
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.dll
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\refint\ChildCentre.Slynchogled.Data.dll
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.pdb
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ChildCentre.Slynchogled.Data.genruntimeconfig.cache
+C:\Users\Stefan\Downloads\ChildCentre.Slynchogled\ChildCentre.Slynchogled.Data\obj\Debug\net6.0\ref\ChildCentre.Slynchogled.Data.dll
