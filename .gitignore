@@ -22,6 +22,7 @@ bld/
 #wwwroot/
 
 ## Visual Studio for Mac
+.vs/
 .vscode/
 .idea/
 *.sln.iml
